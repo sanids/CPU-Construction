@@ -1,0 +1,185 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7.mpf
+# Loading project lab7
+# Compile of shifter.v was successful.
+# Compile of alu.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of lab7_autograder_check.v was successful.
+# Compile of lab7_top.v was successful.
+# Compile of regfile.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim lab7_check_tb
+# vsim -gui C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\lab7.mpf 
+# Start time: 18:53:25 on Oct 29,2018
+# Loading work.lab7_check_tb
+# Loading work.lab7_top
+# Loading work.cpu
+# Loading work.vDFFcpu
+# Loading work.instdecoder
+# Loading work.Mux3
+# Loading work.FSM
+# Loading work.vDFFcpu2
+# Loading work.datapath
+# Loading work.MUX4
+# Loading work.regfile
+# Loading work.Dec
+# Loading work.ANDed
+# Loading work.vDFFE
+# Loading work.Mux8
+# Loading work.vDFFdata
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.AddSub
+# Loading work.Adder1
+# Loading work.RAM
+# Loading work.vDFFtop
+# Loading work.sseg
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+run -all
+# INTERFACE OK
+# ** Note: $stop    : C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_autograder_check.v(61)
+#    Time: 325 ps  Iteration: 2  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_autograder_check.v line 61
+do C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/autograderwave.do
+add wave -position insertpoint  \
+sim:/lab7_check_tb/DUT/CPU/reset \
+sim:/lab7_check_tb/DUT/CPU/reset_pc
+restart -f ;run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# INTERFACE OK
+# ** Note: $stop    : C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_autograder_check.v(61)
+#    Time: 325 ps  Iteration: 2  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_autograder_check.v line 61
+add wave -position insertpoint  \
+sim:/lab7_check_tb/DUT/CPU/clk
+restart -f ;run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# INTERFACE OK
+# ** Note: $stop    : C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_autograder_check.v(61)
+#    Time: 325 ps  Iteration: 2  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_autograder_check.v line 61
+add wave -position insertpoint  \
+sim:/lab7_check_tb/DUT/CPU/DP/REGFILE/R0 \
+sim:/lab7_check_tb/DUT/CPU/DP/REGFILE/R1 \
+sim:/lab7_check_tb/DUT/CPU/DP/REGFILE/R2
+restart -f ;run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# INTERFACE OK
+# ** Note: $stop    : C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_autograder_check.v(61)
+#    Time: 325 ps  Iteration: 2  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_autograder_check.v line 61
+add wave -position insertpoint  \
+sim:/lab7_check_tb/DUT/CPU/DP/vsel
+restart -f ;run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# INTERFACE OK
+# ** Note: $stop    : C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_autograder_check.v(61)
+#    Time: 325 ps  Iteration: 2  Instance: /lab7_check_tb
+# Break in Module lab7_check_tb at C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_autograder_check.v line 61
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/autograderwave.do
+# Closing project C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7.mpf
+# reading C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project lab7tb1
+vsim lab7_ptb1
+# vsim 
+# Start time: 18:59:18 on Oct 29,2018
+# Loading work.lab7_ptb1
+# Loading work.ptbtest1_top
+# Loading work.cpu
+# Loading work.vDFFcpu
+# Loading work.instdecoder
+# Loading work.Mux3
+# Loading work.FSM
+# Loading work.vDFFcpu2
+# Loading work.datapath
+# Loading work.MUX4
+# Loading work.regfile
+# Loading work.Dec
+# Loading work.ANDed
+# Loading work.vDFFE
+# Loading work.Mux8
+# Loading work.vDFFdata
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.AddSub
+# Loading work.Adder1
+# Loading work.RAM
+# Loading work.vDFFtop
+# Loading work.sseg
+do C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/autograderwave.do
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/MEM/mem[7]'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 3
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/MEM/mem[6]'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 4
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/MEM/mem[5]'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 5
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/MEM/mem[4]'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 6
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/MEM/mem[3]'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 7
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/MEM/mem[2]'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 8
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/MEM/mem[1]'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 9
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/MEM/mem[0]'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 10
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/CPU/instout'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 11
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/err'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 12
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/CPU/PC'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 13
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/CPU/reset'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 14
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/CPU/reset_pc'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 15
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/CPU/clk'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 16
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/CPU/DP/REGFILE/R0'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 17
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/CPU/DP/REGFILE/R1'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 18
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/CPU/DP/REGFILE/R2'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 19
+# ** Error: (vish-4014) No objects found matching '/lab7_check_tb/DUT/CPU/DP/vsel'.
+# Executing ONERROR command at macro C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\autograderwave.do line 20
+do C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH1/wavetb1.do
+add wave -position insertpoint  \
+sim:/lab7_ptb1/DUT/CPU/clk
+add wave -position insertpoint  \
+sim:/lab7_ptb1/DUT/CPU/reset \
+sim:/lab7_ptb1/DUT/CPU/reset_pc
+add wave -position insertpoint  \
+sim:/lab7_ptb1/DUT/CPU/DP/REGFILE/R0 \
+sim:/lab7_ptb1/DUT/CPU/DP/REGFILE/R1 \
+sim:/lab7_ptb1/DUT/CPU/DP/REGFILE/R2
+add wave -position insertpoint  \
+sim:/lab7_ptb1/DUT/CPU/vsel
+restart -f; run-all
+# invalid command name "run-all"
+restart -f; run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# INTERFACE OK
+# ** Note: $stop    : C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH1/lab7_personaltb1.v(64)
+#    Time: 325 ps  Iteration: 2  Instance: /lab7_ptb1
+# Break in Module lab7_ptb1 at C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH1/lab7_personaltb1.v line 64
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/lab7_wave.do
+# End time: 19:01:57 on Oct 29,2018, Elapsed time: 0:02:39
+# Errors: 55, Warnings: 0

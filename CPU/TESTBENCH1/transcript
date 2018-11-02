@@ -1,0 +1,11 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH1/lab7tb1.mpf
+# Loading project lab7tb1
+# Compile of alu.v was successful.
+# Compile of cpu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of lab7_personaltb1.v was successful.
+# Compile of ptbtest1_top.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# 7 compiles, 0 failed with no errors.

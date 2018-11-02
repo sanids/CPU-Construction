@@ -1,0 +1,66 @@
+C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/ptbtest2_top.v {1 {vlog -work work -stats=none {C:\Users\Varun\Documents\EEGit\cpen211\LAB_7\lab7i\TESTBENCH2\ptbtest2_top.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module ptbtest2_top
+-- Compiling module RAM
+-- Compiling module vDFFtop
+-- Compiling module sseg
+
+Top level modules:
+	ptbtest2_top
+
+} {} {}} C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/regfile.v {1 {vlog -work work -stats=none C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/regfile.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module regfile
+-- Compiling module Dec
+-- Compiling module vDFFE
+-- Compiling module ANDed
+-- Compiling module Mux8
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/alu.v {1 {vlog -work work -stats=none C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/alu.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module ALU
+-- Compiling module AddSub
+-- Compiling module Adder1
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/datapath.v {1 {vlog -work work -stats=none C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/datapath.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module datapath
+-- Compiling module vDFFdata
+-- Compiling module MUX4
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/cpu.v {1 {vlog -work work -stats=none C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/cpu.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module cpu
+-- Compiling module instdecoder
+-- Compiling module Mux3
+-- Compiling module FSM
+-- Compiling module vDFFcpu
+-- Compiling module vDFFcpu2
+
+Top level modules:
+	cpu
+
+} {} {}} C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/lab7_personaltb2.v {1 {vlog -work work -stats=none C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/lab7_personaltb2.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module lab7_ptb2
+
+Top level modules:
+	lab7_ptb2
+
+} {} {}} C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/shifter.v {1 {vlog -work work -stats=none C:/Users/Varun/Documents/EEGit/cpen211/LAB_7/lab7i/TESTBENCH2/shifter.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}}
